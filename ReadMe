@@ -1,0 +1,25 @@
+To download input graphs:
+
+cd ./build
+
+cmake ..
+
+(Note this will only download the youtube and com-orkut graphs)
+
+To build Executables:
+
+cd ./build
+
+make
+
+To run connectivity with vertex permutation:
+
+./connectivity (beta) <n> 1
+
+To run connectivity without vertex permutation:
+
+./connectivity (beta) <n> 0
+
+To run BFS_CC:
+
+./BFS_CC <n>
